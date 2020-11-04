@@ -17,4 +17,6 @@ function keyPressed(){
 //------------------------
 function mousePressed(){
   circle(mouseX,mouseY,50)
+  count += 1
+  console.log(`You have clicked ${count} times.`)
 }
